@@ -35,7 +35,7 @@ I like clean interfaces, meaningful data, and projects that actually feel *alive
 - **Frontend:** React, Tailwind CSS
 - **Icons:** Lucide React
 - **Build Tool:** Vite
-- **Deployment:** Vercel / Netlify
+- **Deployment:** Vercel
 - **Design Style:** Futuristic / Cyber / Minimal
 
 ---
@@ -69,9 +69,9 @@ A data analysis project exploring how music habits impact anxiety, depression, a
 
 ## 🌐 Live Preview
 
-> 🔗 *Deployment link coming soon*
+> 🔗 https://portfolio-rho-one-24.vercel.app/
 
-(Hosted on Vercel / Netlify)
+(Hosted on Vercel)
 
 ---
 
