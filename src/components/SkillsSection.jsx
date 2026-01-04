@@ -7,7 +7,7 @@ export default function SkillsSection({ skills }) {
       <div className="border-2 border-cyan-400/30 bg-gradient-to-br from-black/80 via-cyan-950/10 to-black/80 p-12 backdrop-blur-xl shadow-2xl shadow-cyan-500/20">
         
         {/* Heading */}
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-12 font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 flex items-center gap-4">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl mb-12 font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 flex items-center gap-4">
           <Sparkles
             className="w-12 h-12 text-cyan-400"
             style={{ animation: "pulse 2s infinite" }}
