@@ -76,6 +76,36 @@ export default function ProjectsSection({ projects }) {
                   </span>
                 ))}
               </div>
+
+              {/* Project Links */}
+<div className="flex flex-wrap gap-4 mt-8">
+  {project.github && (
+    <a
+      href={project.github}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-6 py-3 border-2 border-cyan-400/40 text-cyan-200 font-semibold tracking-wider
+      hover:border-cyan-400 hover:text-cyan-400 transition-all duration-300
+      backdrop-blur bg-black/40"
+    >
+      GitHub
+    </a>
+  )}
+
+  {project.live && (
+    <a
+      href={project.live}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-6 py-3 border-2 border-green-400/50 text-green-300 font-bold tracking-wider
+      hover:border-green-400 hover:text-green-400 transition-all duration-300
+      backdrop-blur bg-black/40 shadow-md shadow-green-400/20"
+    >
+      🟢 Live Demo
+    </a>
+  )}
+</div>
+
             </div>
           ))}
         </div>

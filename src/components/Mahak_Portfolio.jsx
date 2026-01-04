@@ -82,7 +82,9 @@ useEffect(() => {
         'Deployed online for public interaction via InfinityFree'
       ],
       tech: ['JavaScript', 'API Integration', 'PHP', 'CSS', 'HTML'],
-      gradient: 'from-cyan-500 to-blue-500'
+      gradient: 'from-cyan-500 to-blue-500',
+       github: "https://github.com/mahakVishwa/NOVA",
+       live: "https://nova-terminal-c3tx.onrender.com/"
     },
     {
       title: 'Music x Mind - A PowerBI Story',
