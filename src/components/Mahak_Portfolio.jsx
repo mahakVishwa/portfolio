@@ -100,7 +100,7 @@ useEffect(() => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 text-cyan-400 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-[#0b1220] to-slate-900 text-cyan-400 relative overflow-hidden">
       <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
       
       {/* Floating particles */}

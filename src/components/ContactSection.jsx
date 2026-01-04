@@ -4,7 +4,7 @@ export default function ContactSection() {
   return (
     <div className="space-y-10 sm:space-y-8
  animate-fadeIn">
-      <div className="border-2 border-cyan-400/30 bg-gradient-to-br from-black/80 via-cyan-950/10 to-black/80 p-12 backdrop-blur-xl shadow-2xl shadow-cyan-500/20 glow-border">
+      <div className="border-2 border-cyan-400/30 bg-gradient-to-br from-black/80 via-cyan-950/10 to-black/80 p-12 backdrop-blur-xl shadow-2xl shadow-cyan-400/30 glow-border">
         
         {/* Heading */}
         <h2 className="text-3xl sm:text-4xl md:text-5xl mb-12 font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 flex items-center gap-4">
@@ -16,7 +16,7 @@ export default function ContactSection() {
         </h2>
 
         <div className="space-y-10 sm:space-y-8
- text-cyan-300">
+ text-cyan-200">
           <p className="text-xl leading-relaxed flex items-start gap-3">
             <span className="text-cyan-400 text-2xl font-bold mt-1">&gt;</span>
             <span>

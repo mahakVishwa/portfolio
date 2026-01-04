@@ -4,7 +4,7 @@ export default function SkillsSection({ skills }) {
   return (
     <div className="space-y-10 sm:space-y-8
  animate-fadeIn">
-      <div className="border-2 border-cyan-400/30 bg-gradient-to-br from-black/80 via-cyan-950/10 to-black/80 p-12 backdrop-blur-xl shadow-2xl shadow-cyan-500/20">
+      <div className="border-2 border-cyan-400/30 bg-gradient-to-br from-black/80 via-cyan-950/10 to-black/80 p-12 backdrop-blur-xl shadow-2xl shadow-cyan-400/30">
         
         {/* Heading */}
         <h2 className="text-3xl sm:text-4xl md:text-5xl mb-12 font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 flex items-center gap-4">
@@ -31,7 +31,7 @@ export default function SkillsSection({ skills }) {
                   <div className={`bg-gradient-to-br ${skill.color} p-3 rounded-lg`}>
                     {skill.icon}
                   </div>
-                  <span className="text-cyan-300 font-bold text-xl tracking-wide">
+                  <span className="text-cyan-200 font-bold text-xl tracking-wide">
                     {skill.name}
                   </span>
                 </div>
@@ -69,7 +69,7 @@ export default function SkillsSection({ skills }) {
             ].map((interest, i) => (
               <span
                 key={i}
-                className="px-6 py-3 border-2 border-cyan-400/50 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 text-cyan-300 text-base font-semibold rounded-lg hover:border-cyan-400 hover:shadow-lg hover:shadow-cyan-500/30 transition-all duration-300 hover:scale-105 cursor-pointer backdrop-blur"
+                className="px-6 py-3 border-2 border-cyan-400/50 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 text-cyan-200 text-base font-semibold rounded-lg hover:border-cyan-400 hover:shadow-lg hover:shadow-cyan-500/30 transition-all duration-300 hover:scale-105 cursor-pointer backdrop-blur"
               >
                 {interest}
               </span>

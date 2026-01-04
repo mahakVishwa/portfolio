@@ -5,13 +5,13 @@ export default function HomeSection({ terminalText }) {
   return (
     <div className="space-y-12 animate-fadeIn">
       {/* Terminal Intro Card */}
-      <div className="border-2 border-cyan-400/30 bg-gradient-to-br from-black/80 via-cyan-950/10 to-black/80 p-12 backdrop-blur-xl shadow-2xl shadow-cyan-500/20 glow-border">
+      <div className="border-2 border-cyan-400/30 bg-gradient-to-br from-black/80 via-cyan-950/10 to-black/80 p-12 backdrop-blur-xl shadow-2xl shadow-cyan-400/30 glow-border">
         <div className="mb-8">
           <Terminal
             className="w-16 h-16 text-cyan-400 mb-6"
             style={{ animation: "pulse 2s infinite" }}
           />
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-4 font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400">
             {terminalText}
             <span className="animate-pulse opacity-80">▌</span>
           </h2>
@@ -21,7 +21,7 @@ export default function HomeSection({ terminalText }) {
           />
         </div>
 
-        <div className="space-y-6 text-cyan-300 text-lg">
+        <div className="space-y-6 text-cyan-200 text-lg">
           <p className="flex items-start gap-3">
             <span className="text-cyan-400 text-2xl font-bold mt-1">&gt;</span>
             <span className="leading-relaxed">
@@ -70,7 +70,7 @@ export default function HomeSection({ terminalText }) {
         ].map((item, i) => (
           <div
             key={i}
-            className="group border-2 border-cyan-400/30 bg-black/60 backdrop-blur-xl p-6 sm:p-8
+            className="group border-2 border-cyan-400/30 bg-slate-900/70 backdrop-blur-xl p-6 sm:p-8
  hover:border-cyan-400 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/30 cursor-pointer"
             style={{ animationDelay: `${i * 0.2}s` }}
           >
@@ -82,7 +82,7 @@ export default function HomeSection({ terminalText }) {
             <h3 className="text-2xl font-bold mb-3 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">
               {item.title}
             </h3>
-            <p className="text-cyan-300 text-lg leading-relaxed">
+            <p className="text-cyan-200 text-lg leading-relaxed">
               {item.desc}
             </p>
           </div>
